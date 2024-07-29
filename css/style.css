@@ -29,6 +29,7 @@ main {
     padding: 2em;
 }
 
+
 .content {
     background-color: #222;
     padding: 2em;
@@ -38,4 +39,43 @@ main {
 
 h1 {
     color: #ff0000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+table, th, td {
+    border: 1px solid #fff;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #444;
+}
+
+tr:nth-child(odd) {
+    background-color: #333;
+}
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 0;
 }

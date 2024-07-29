@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berserk - Personagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background-color: #000;
+            color: #ff0000;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #111;
+            padding: 0.5em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        .content {
+            background-color: #222;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+
+        h1 {
+            color: #ff0000;
+        }
+
+        .character {
+            display: flex;
+            align-items: center;
+            margin-bottom: 2em;
+        }
+
+        .character img {
+            max-width: 150px;
+            margin-right: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+
+        .character-info {
+            flex-grow: 1;
+        }
+
+        .character button {
+            background-color: #ff0000;
+            color: #fff;
+            border: none;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .character button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Berserk - Personagens</h1>
+    </header>
+
+    <nav>
+        <a href="/index.html" target="_self">Início</a>
+        <a href="personagens.html" target="_self">Personagens</a>
+        <a href="historia.html" target="_self">História</a>
+        <a href="manga.html" target="_self">Mangá</a>
+    </nav>
+
+    <main>
+        <div class="content">
+            <div class="character">
+                <img src="/icon/guts.jpg" alt="Guts">
+                <div class="character-info">
+                    <h2>Guts</h2>
+                    <p>O protagonista, um guerreiro solitário marcado por uma vida de batalha.</p>
+                </div>
+                <button onclick="location.href='guts.html'">Veja mais</button>
+            </div>
+
+            <div class="character">
+                <img src="/icon/casca.jpg" alt="Casca">
+                <div class="character-info">
+                    <h2>Casca</h2>
+                    <p>Uma habilidosa guerreira e membro do Bando do Falcão.</p>
+                </div>
+                <button onclick="location.href='casca.html'">Veja mais</button>
+            </div>
+
+            <div class="character">
+                <img src="/icon/Griffith.jpg" alt="Griffith">
+                <div class="character-info">
+                    <h2>Griffith</h2>
+                    <p>O carismático líder do Bando do Falcão, cuja ambição muda o destino de todos.</p>
+                </div>
+                <button onclick="location.href='griffith.html'">Veja mais</button>
+            </div>
+
+            <div class="character">
+                <img src="/icon/Skull Knight.jpg" alt="Skull Knight">
+                <div class="character-info">
+                    <h2>Skull Knight</h2>
+                    <p>Um misterioso guerreiro esqueleto que ajuda Guts em sua jornada.</p>
+                </div>
+                <button onclick="location.href='skullknight.html'">Veja mais</button>
+            </div>
+
+            <div class="character">
+                <img src="/icon/Moonlight Boy.jpg" alt="Moonlight Boy">
+                <div class="character-info">
+                    <h2>Moonlight Boy</h2>
+                    <p>Uma figura enigmática que aparece durante as noites de lua cheia.</p>
+                </div>
+                <button onclick="location.href='moonlightboy.html'">Veja mais</button>
+            </div>
+
+            <div class="character">
+                <img src="/icon/Rakshas.jpg" alt="Rakshas">
+                <div class="character-info">
+                    <h2>Rakshas</h2>
+                    <p>Um dos apóstolos de Griffith, conhecido por sua aparência monstruosa e habilidades de combate.</p>
+                </div>
+                <button onclick="location.href='rakshas.html'">Veja mais</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
